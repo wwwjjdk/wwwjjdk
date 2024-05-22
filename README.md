@@ -54,7 +54,7 @@
 
 ###
 
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=George1x1&theme=dark)](https://github.com/wwwjjdk/leetcode-stats)
+![](https://leetcard.jacoblin.cool/George1x1?ext=heatmap)
 
 ###
 
