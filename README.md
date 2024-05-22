@@ -47,3 +47,16 @@
 <a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" /></a>  
 <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
 </div>
+
+###
+
+<h3 align="left">:pager:  Мой LeetCode</h3>
+
+###
+
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=George1x1&theme=dark)](https://github.com/wwwjjdk/leetcode-stats)
+
+###
+
+
+
