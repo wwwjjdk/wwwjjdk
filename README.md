@@ -28,6 +28,10 @@
 
 ###
 
+![snake gif](https://github.com/wwwjjdk/wwwjjdk/blob/output/github-contribution-grid-snake-dark.svg)
+
+###
+
 <h3 align="left">🛠 Технологии:</h3>
 
 ###
