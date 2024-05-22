@@ -1,52 +1,45 @@
-name: Generate Snake
+<br clear="both">
 
-# Controls when the action will run. This action runs every 6 hours.
+<div align="center">
+  <img height="300" width="600" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
+</div>
 
-on:
-  schedule:
-      # every 6 hours
-    - cron: "0 */6 * * *"
+###
 
-# This command allows us to run the Action automatically from the Actions tab.
-  workflow_dispatch:
+<h1 align="center">Привет👋 Меня зовут Георгий!</h1>
 
-# The sequence of runs in this workflow:
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+###
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+<div align="center">
+  <a href="https://t.me/wwwjjdk" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
+  </a>
+</div>
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
+###
 
-    # Generates the snake  
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: mishmanners
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+<h3 align="left">👩‍💻  Обо мне</h3>
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
-      - run: git status
+###
 
-      # Push the changes
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
+<p align="left">Я начинающий Backend разработчик, являюсь бакалавром по экономике, направление образовательной программы: Финансы и кредит<br> 
+На данном этапе обучаюсь в магистратуре по направлению финансовый менеджмент.
+Мой путь в it начался с онлайн школы Неотология, где пройден курс по профессиональной переквалификации по направлению «Java-разработчик с нуля», в ходе обучения мною было написано 3 курсовые работы, а также успешно сдан дипломный проект. На данном этапе активно решаю задачи на сайте LeetCode, пишу проект по расчету показателей финансовой устойчивости организаций.</p>
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          # the output branch we mentioned above
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+###
+
+<h3 align="left">🛠 Технологии:</h3>
+
+###
+<div align="center">  
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
+<a href="https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html#:~:text=The%20Spring%20Expression%20Language%20(SpEL,and%20basic%20string%20templating%20functionality." target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="25" /></a>  
+<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
+<a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
+<a href="https://www.oracle.com/in/index.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg" alt="Oracle" height="50" /></a>  
+<a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
+<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>  
+<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+</div>
